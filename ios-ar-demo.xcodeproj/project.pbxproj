@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		135229A9268CB16E008266A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135229A8268CB16E008266A2 /* AppDelegate.swift */; };
-		135229AB268CB16E008266A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135229AA268CB16E008266A2 /* ContentView.swift */; };
-		135229AD268CB16E008266A2 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 135229AC268CB16E008266A2 /* Experience.rcproject */; };
 		135229AF268CB171008266A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 135229AE268CB171008266A2 /* Assets.xcassets */; };
 		135229B2268CB171008266A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 135229B1268CB171008266A2 /* Preview Assets.xcassets */; };
+		13A66EA3268DAB5A0059F23C /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A66EA2268DAB5A0059F23C /* StatusViewController.swift */; };
+		13A66EA8268DB6690059F23C /* ViewControllerWithARSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A66EA7268DB6690059F23C /* ViewControllerWithARSessionDelegate.swift */; };
+		13A66EAE268DBA740059F23C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13A66EAD268DBA740059F23C /* Main.storyboard */; };
+		13A66EB2268DBF700059F23C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13A66EB1268DBF700059F23C /* LaunchScreen.storyboard */; };
+		13A66F212692EE9F0059F23C /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 13A66F202692EE9E0059F23C /* Images */; };
+		13C3A7D3268CBFF500F58DE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C3A7D2268CBFF500F58DE9 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		135229A5268CB16D008266A2 /* ios-ar-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-ar-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		135229A8268CB16E008266A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		135229AA268CB16E008266A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		135229AC268CB16E008266A2 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		135229AE268CB171008266A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		135229B1268CB171008266A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		135229B3268CB171008266A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13A66EA2268DAB5A0059F23C /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		13A66EA7268DB6690059F23C /* ViewControllerWithARSessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWithARSessionDelegate.swift; sourceTree = "<group>"; };
+		13A66EAD268DBA740059F23C /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		13A66EB1268DBF700059F23C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13A66F202692EE9E0059F23C /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		13C3A7D2268CBFF500F58DE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				135229A8268CB16E008266A2 /* AppDelegate.swift */,
-				135229AA268CB16E008266A2 /* ContentView.swift */,
-				135229AC268CB16E008266A2 /* Experience.rcproject */,
-				135229AE268CB171008266A2 /* Assets.xcassets */,
-				135229B3268CB171008266A2 /* Info.plist */,
+				13C3A7D2268CBFF500F58DE9 /* ViewController.swift */,
+				13A66EA7268DB6690059F23C /* ViewControllerWithARSessionDelegate.swift */,
+				13A66EA2268DAB5A0059F23C /* StatusViewController.swift */,
+				13A66EBA268DDA490059F23C /* Resources */,
 				135229B0268CB171008266A2 /* Preview Content */,
 			);
 			path = "ios-ar-demo";
@@ -70,6 +78,18 @@
 				135229B1268CB171008266A2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		13A66EBA268DDA490059F23C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				13A66F202692EE9E0059F23C /* Images */,
+				135229B3268CB171008266A2 /* Info.plist */,
+				13A66EB1268DBF700059F23C /* LaunchScreen.storyboard */,
+				13A66EAD268DBA740059F23C /* Main.storyboard */,
+				135229AE268CB171008266A2 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +149,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13A66EAE268DBA740059F23C /* Main.storyboard in Resources */,
+				13A66F212692EE9F0059F23C /* Images in Resources */,
+				13A66EB2268DBF700059F23C /* LaunchScreen.storyboard in Resources */,
 				135229B2268CB171008266A2 /* Preview Assets.xcassets in Resources */,
 				135229AF268CB171008266A2 /* Assets.xcassets in Resources */,
 			);
@@ -141,9 +164,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				135229AB268CB16E008266A2 /* ContentView.swift in Sources */,
+				13A66EA3268DAB5A0059F23C /* StatusViewController.swift in Sources */,
 				135229A9268CB16E008266A2 /* AppDelegate.swift in Sources */,
-				135229AD268CB16E008266A2 /* Experience.rcproject in Sources */,
+				13A66EA8268DB6690059F23C /* ViewControllerWithARSessionDelegate.swift in Sources */,
+				13C3A7D3268CBFF500F58DE9 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,10 +296,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"ios-ar-demo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = J6HA7PY9C3;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "ios-ar-demo/Info.plist";
+				INFOPLIST_FILE = "ios-ar-demo/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -293,10 +318,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"ios-ar-demo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = J6HA7PY9C3;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "ios-ar-demo/Info.plist";
+				INFOPLIST_FILE = "ios-ar-demo/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
